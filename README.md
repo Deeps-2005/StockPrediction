@@ -17,7 +17,7 @@ This project builds and evaluates models to forecast stock prices, helping users
 
 ## 🛠 Technologies Used
 
-- **Python 3.x**
+- **Python 3.12**
 - **Pandas** — Data manipulation
 - **NumPy** — Numerical computations
 - **Scikit-Learn** — ML models and evaluation
@@ -30,10 +30,8 @@ This project builds and evaluates models to forecast stock prices, helping users
 
 ```
 StockPrediction/
-├── data/                # (Optional) Store historical stock data
-├── models/              # Trained models (if saved)
-├── StockPredictor.ipynb # Main Jupyter notebook
-├── requirements.txt     # Python dependencies
+├── stock_prediction.py  #Main Python file
+├── Book2.csv            # Dataset
 └── README.md            # Project documentation
 ```
 
