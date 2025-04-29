@@ -196,5 +196,5 @@ plt.show()
 
 # Save future predictions to a CSV file
 future_predictions_df = pd.DataFrame(data={'Date': future_dates, 'Future Predictions': future_predictions.flatten()})
-future_predictions_df.to_csv('C:/Users/hp/Pictures/future_predictions.csv', index=False)
+future_predictions_df.to_csv('future_predictions.csv', index=False)
 print("Future predictions saved to future_predictions.csv")
