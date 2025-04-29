@@ -7,7 +7,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense
 
 # Load the data
-cnc_data = pd.read_csv('C:/Users/hp/Videos/Book2.csv')
+cnc_data = pd.read_csv('Book2.csv')
 cnc_data['Timestamp'] = pd.to_datetime(cnc_data['Timestamp'])
 cnc_data.set_index('Timestamp', inplace=True)
 
